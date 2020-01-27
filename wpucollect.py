@@ -20,8 +20,6 @@ if req.status_code == 200:
 			print(user_login + " " + user_name)
 	except Exception as err:
 		print('Can\'t get users')
-elif req.status_code == 401:
-	print('Can\'t get users')
 else:
 	print('Can\'t get users')
 exit()

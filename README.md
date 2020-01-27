@@ -23,3 +23,4 @@ alex Александр Шумович
 aleksandra Александра Финогенова
 charikova Александра Чарикова
 ```
+then you can use https://github.com/n00py/WPForce for bruteforce user account 

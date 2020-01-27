@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-t', "--target", type=str, help="your target website e.g. https://blog.mann-ivanov-ferber.ru/ ")
 args = parser.parse_args()
 
-url = result = re.sub(r'(.*://)?([^/?]+).*', '\g<1>\g<2>'+"/wp-json/wp/v2/users", args.target)
+url = re.sub(r'(.*://)?([^/?]+).*', '\g<1>\g<2>'+"/wp-json/wp/v2/users", args.target)
 
 req = requests.get(url)
 if req.status_code == 200:

@@ -8,7 +8,6 @@ python wpucollect.py -t https://blog.mann-ivanov-ferber.ru/
 
 Your result:
 python 1.py -t https://blog.mann-ivanov-ferber.ru/
-
 UserLogin UserName:
 bot Bot
 nadyafrank nadyafrank
